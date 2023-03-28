@@ -1,0 +1,73 @@
+body{
+   
+    padding: 10px;
+}
+.sectionOne .FirstRow{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.sectionTwo{
+    display: flex;
+    margin-top: auto;
+}
+.sectionTwo .inputFeildsOne{
+    margin-top: 17px;
+    margin-left: 160px;
+    
+    
+    
+    
+}
+.sectionTwo .inputFeildsOne #hour{
+    color: tomato;
+    width: 29px;
+    height: 25px;
+    padding: 3px;
+    font-size: larger;
+    text-align: center;
+
+}
+.sectionTwo .inputFeildsOne #hour1{
+    color: tomato;
+    width: 29px;
+    height: 25px;
+    padding: 3px;
+    font-size: larger;
+    text-align: center;
+
+}
+.sectionTwo .inputFeildsOne #hour2{
+    color: tomato;
+    width: 29px;
+    height: 25px;
+    padding: 3px;
+    font-size: larger;
+    text-align: center;
+
+}
+.sectionTwo .inputFeildsOne #miniute{
+    color: tomato;
+    width: 29px;
+    height: 25px;
+    padding: 3px;
+    font-size: larger;
+    text-align: center;
+    
+}
+.sectionTwo .inputFeildsOne #am{
+    width: 50px;
+    height: 34px;
+    padding: 3px;
+    
+}
+.sectionTwo .resultSec{
+    margin-top: 0px;
+    margin-left: 270px;
+    font-size: larger;
+    cursor: pointer;
+    color: tomato;
+}

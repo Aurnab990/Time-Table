@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Time-Table</title>
+</head>
+
+<body>
+    <section class="sectionOne">
+        <div class="FirstRow">
+            <h3>Day</h3>
+            <h3>Starting time</h3>
+            <h3>Ending time</h3>
+            <h3>Break Deduction?</h3>
+            <h3>Total</h3>
+        </div>
+    </section>
+    <section class="sectionTwo">
+        <div class="DayRow">
+            <h3>Monday</h3>
+        </div>
+        <div class="inputFeildsOne">
+            <input id="hour" type="text" placeholder=""> :
+            <input id="miniute" type="text" value="00">
+            <select id="am" >
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <div class="inputFeildsOne">
+            <input id="hour1" type="text" placeholder=""> :
+            <input id="miniute" type="text" value="00">
+            <select id="am" >
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <div class="inputFeildsOne">
+            <input id="hour2" type="text" placeholder=""> :
+            <input id="miniute" type="text" value="00">
+
+        </div>
+        <div class="resultSec">
+            <h3 id="result" onclick="total()"></h3>
+        </div>
+        
+    </section>
+    <section>
+        <button onclick="total()">Calculate</button>
+        <button onclick="clearAll()">Clear ALl</button>
+    </section>
+
+ 
+
+  
+    
+ 
+
+ 
+
+    
+
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
